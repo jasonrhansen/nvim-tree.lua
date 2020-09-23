@@ -3,9 +3,6 @@ if has('win32') || exists('g:loaded_tree') | finish | endif
 let s:save_cpo = &cpo
 set cpo&vim
 
-let g:loaded_netrw = 1
-let g:loaded_netrwPlugin = 1
-
 hi def link LuaTreePopup Normal
 
 augroup LuaTree
